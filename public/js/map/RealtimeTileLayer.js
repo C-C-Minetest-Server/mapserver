@@ -24,6 +24,10 @@ export default L.TileLayer.extend({
       if (el){
           //Update src attribute if img found
           el.src = self.getTileSource(tc.x, tc.y, tc.zoom, true);
+          el.style.opacity = 0;
+          el.onload = () => {
+            el.style.opacity = 1;
+          }
       }
     });
   },
@@ -42,7 +46,10 @@ export default L.TileLayer.extend({
     tile.id = this.getImageId(coords.x, coords.y, coords.z);
 
     // trigger callbacks
-    tile.onload = () => done(null, tile);
+    tile.onload = () => {
+      el.self.style.opacity = 1;
+      return done(null, tile);
+    };
     tile.onerror = e => done(e, tile);
 
     return tile;
