@@ -50,8 +50,8 @@ export default L.TileLayer.extend({
 
     // trigger callbacks
     tile.onload = () => {
+      done(null, tile);
       tile.style.opacity = 1;
-      return done(null, tile);
     };
     tile.onerror = e => done(e, tile);
 
