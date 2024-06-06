@@ -23,7 +23,13 @@ export default L.TileLayer.extend({
 
       if (el){
           //Update src attribute if img found
-          el.src = self.getTileSource(tc.x, tc.y, tc.zoom, true);
+          const imagePreloader = new Image();
+
+          imagePreloader.onload = () => {
+            el.src = imagePreloader.src;
+          }
+          
+          imagePreloader.src = self.getTileSource(tc.x, tc.y, tc.zoom, true);
       }
     });
   },
