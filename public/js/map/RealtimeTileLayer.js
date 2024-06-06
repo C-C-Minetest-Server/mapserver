@@ -47,6 +47,16 @@ export default L.TileLayer.extend({
     tile.src = this.getTileSource(coords.x, coords.y, coords.z, true);
     tile.id = this.getImageId(coords.x, coords.y, coords.z);
 
+    {
+      const imagePreloader = new Image();
+
+      imagePreloader.onload = () => {
+        tile.src = imagePreloader.src;
+      }
+      
+      imagePreloader.src = this.getTileSource(coords.x, coords.y, coords.z, true);
+    }
+
     // trigger callbacks
     tile.onload = () => done(null, tile);
     tile.onerror = e => done(e, tile);
