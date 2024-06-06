@@ -28,10 +28,6 @@ export default L.TileLayer.extend({
 
           imagePreloader.onload = () => {
             el.src = imagePreloader.src;
-
-            el.onload = () => {
-              el.style.opacity = 1;
-            }
           }
           
           imagePreloader.src = self.getTileSource(tc.x, tc.y, tc.zoom, true);
