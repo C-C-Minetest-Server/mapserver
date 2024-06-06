@@ -120,6 +120,11 @@ export default {
       function onclick(){
         var layer = layerMgr.getLayerByY(obj.y);
         m.route.set(`/map/${layer.id}/${12}/${obj.x}/${obj.z}`);
+
+        var icon = self.getIcon(obj);
+        if (icon) {
+          obj.openPopup();
+        }
       }
 
       return m("tr", {"class": row_classes}, [
