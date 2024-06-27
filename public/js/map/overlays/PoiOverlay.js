@@ -23,7 +23,7 @@ export default AbstractIconOverlay.extend({
     var innerHTML = "";
 
     if (poi.attributes.url) {
-      innerHTML += "<a href=\"" + HtmlSanitizer.SanitizeHtml(poi.attributes.url) + "\">" +
+      innerHTML += "<a target=\"_top\" href=\"" + HtmlSanitizer.SanitizeHtml(poi.attributes.url) + "\">" +
         "<h4>" + HtmlSanitizer.SanitizeHtml(poi.attributes.name) + "</h4></a><hr>";
     } else {
       innerHTML += "<h4>" + HtmlSanitizer.SanitizeHtml(poi.attributes.name) + "</h4><hr>";
