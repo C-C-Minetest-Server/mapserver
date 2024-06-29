@@ -1,7 +1,7 @@
 #== Define versions here.
 ARG ALPINE_VER=3.20
 ARG NODE_VER=22.2
-ARG GO_VER=1.23
+ARG GO_VER=1.22
 
 #== Container for running rollup. That's all.
 FROM node:${NODE_VER}-alpine${ALPINE_VER} as rollup
