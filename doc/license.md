@@ -88,6 +88,19 @@
   * License: CC BY-SA 3.0
   * by Marnack
 
+* moretrains_*
+  * License: CC BY-SA 3.0
+  * by rbduck, derived from icons from advtrains
+  * except nightline and basic, icon by Marnack derived from rbduck
+
+* linetracks_boat_inv.png
+  * License: CC BY-SA 4.0
+  * by Montandalar
+
+* linetracks_tcb.png
+  * License: LGPL-2.1-or-later
+  * by Hume2
+
 * minecart_logo.png
   * License: CC0
   * Source [minecart](https://github.com/joe7575/minecart)

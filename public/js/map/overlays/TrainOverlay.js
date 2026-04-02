@@ -73,6 +73,49 @@ const TRAIN_URLS = {
   // Dlxtrains support wagons
   "dlxtrains_support_wagons:caboose_type1": "pics/advtrains/dlxtrains_support_wagons_caboose_type1_inv.png",
   "dlxtrains_support_wagons:escort_type1": "pics/advtrains/dlxtrains_support_wagons_escort_type1_inv.png",
+
+  // Moretrains basic
+  "advtrains:moretrains_railroad_car": "pics/advtrains/moretrains_railroad_car_inv.png",
+  "advtrains:moretrains_silberling": "pics/advtrains/moretrains_silberling_inv.png",
+  "advtrains:moretrains_silberling_dining": "pics/advtrains/moretrains_silberling_dining_inv.png",
+  "advtrains:moretrains_diesel_german": "pics/advtrains/moretrains_diesel_german_inv.png",
+  "advtrains:moretrains_silberling_train": "pics/advtrains/moretrains_silberling_train_inv.png",
+
+  // Moretrains Gondola (base type only, all others are conveted to this one)
+  "advtrains:moretrains_wagon_gondola": "pics/advtrains/moretrains_wagon_gondola_inv.png",
+
+  // Moretrains industrial
+  "advtrains:moretrains_wagon_tank": "pics/advtrains/moretrains_wagon_tank_inv.png",
+  "advtrains:moretrains_wagon_tank2": "pics/advtrains/moretrains_wagon_tank2_inv.png",
+  "advtrains:moretrains_wagon_wood": "pics/advtrains/moretrains_wagon_wood_inv.png",
+  "advtrains:moretrains_wagon_wood_loaded": "pics/advtrains/moretrains_wagon_wood_loaded_inv.png",
+  "advtrains:moretrains_wagon_wood_acacia": "pics/advtrains/moretrains_wagon_wood_acacia_inv.png",
+  "advtrains:moretrains_wagon_wood_jungle": "pics/advtrains/moretrains_wagon_wood_jungle_inv.png",
+  "advtrains:moretrains_wagon_wood_pine": "pics/advtrains/moretrains_wagon_wood_pine_inv.png",
+  "advtrains:moretrains_wagon_wood_aspen": "pics/advtrains/moretrains_wagon_wood_aspen_inv.png",
+  "advtrains:moretrains_wagon_box": "pics/advtrains/moretrains_wagon_box_inv.png",
+
+  // Moretrains Japan
+  "advtrains:moretrains_engine_japan": "pics/advtrains/moretrains_engine_japan_inv.png",
+  "advtrains:moretrains_wagon_japan": "pics/advtrains/moretrains_wagon_japan_inv.png",
+
+  // Moretrains nightline
+  "advtrains:moretrains_nightline_couchette": "pics/advtrains/moretrains_nightline_couchette_inv.png",
+  "advtrains:moretrains_nightline_seat_car": "pics/advtrains/moretrains_nightline_seat_car_inv.png",
+
+  // Moretrains steam
+  "advtrains:moretrains_steam_train": "pics/advtrains/moretrains_steam_train_inv.png",
+  "advtrains:moretrains_tender": "pics/advtrains/moretrains_steam_tender_inv.png",
+
+  // Moretrains vintage
+  "advtrains:moretrains_draisine": "pics/advtrains/moretrains_draisine_inv.png",
+  "advtrains:moretrains_minecart": "pics/advtrains/moretrains_minecart_inv.png",
+  "advtrains:moretrains_minecart_loaded": "pics/advtrains/moretrains_minecart_loaded_inv.png",
+  "advtrains:moretrains_minecart_engine": "pics/advtrains/moretrains_minecart_engine_inv.png",
+
+  // Linetracks
+  "advtrains:boat": "pics/advtrains/linetracks_boat_inv.png",
+  "advtrains:bus": "pics/advtrains/linetracks_tcb.png", // temp
 };
 
 function getTrainImageUrlForType(type){
