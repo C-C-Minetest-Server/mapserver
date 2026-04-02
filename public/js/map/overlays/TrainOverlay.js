@@ -1,38 +1,24 @@
 import wsChannel from '../../WebSocketChannel.js';
 import layerMgr from '../../LayerManager.js';
 
+const TRAIN_URLS = {
+  "advtrains:subway_wagon": "pics/advtrains/advtrains_subway_wagon_inv.png",
+  "advtrains:engine_japan":  "pics/advtrains/advtrains_engine_japan_inv.png",
+  "advtrains:wagon_japan":  "pics/advtrains/advtrains_wagon_japan_inv.png",
+  "advtrains:engine_steam":  "pics/advtrains/advtrains_engine_steam_inv.png",
+  "advtrains:detailed_steam_engine":  "pics/advtrains/advtrains_detailed_engine_steam_inv.png",
+  "advtrains:engine_industrial":  "pics/advtrains/advtrains_engine_industrial_inv.png",
+  "advtrains:wagon_wood":  "pics/advtrains/advtrains_wagon_wood_inv.png",
+  "advtrains:wagon_box":  "pics/advtrains/advtrains_wagon_box_inv.png",
+  "advtrains:wagon_default":  "pics/advtrains/advtrains_wagon_inv.png",
+
+  "advtrains:subway_wagon_blue": "pics/advtrains/advtrains_subway_wagon_inv_blue.png",
+  "advtrains:subway_wagon_red": "pics/advtrains/advtrains_subway_wagon_inv_red.png",
+  "advtrains:subway_wagon_green": "pics/advtrains/advtrains_subway_wagon_inv_green.png",
+};
+
 function getTrainImageUrlForType(type){
-  switch(type){
-    case "advtrains:subway_wagon":
-      return "pics/advtrains/advtrains_subway_wagon_inv.png";
-    case "advtrains:engine_japan":
-      return  "pics/advtrains/advtrains_engine_japan_inv.png";
-    case "advtrains:wagon_japan":
-      return  "pics/advtrains/advtrains_wagon_japan_inv.png";
-    case "advtrains:engine_steam":
-      return  "pics/advtrains/advtrains_engine_steam_inv.png";
-    case "advtrains:detailed_steam_engine":
-      return  "pics/advtrains/advtrains_detailed_engine_steam_inv.png";
-    case "advtrains:engine_industrial":
-      return  "pics/advtrains/advtrains_engine_industrial_inv.png";
-    case "advtrains:wagon_wood":
-      return  "pics/advtrains/advtrains_wagon_wood_inv.png";
-    case "advtrains:wagon_box":
-      return  "pics/advtrains/advtrains_wagon_box_inv.png";
-    case "advtrains:wagon_default":
-      return  "pics/advtrains/advtrains_wagon_inv.png";
-
-    case "advtrains:subway_wagon_blue":
-      return "pics/advtrains/advtrains_subway_wagon_inv_blue.png";
-    case "advtrains:subway_wagon_red":
-      return "pics/advtrains/advtrains_subway_wagon_inv_red.png";
-    case "advtrains:subway_wagon_green":
-      return "pics/advtrains/advtrains_subway_wagon_inv_green.png";
-
-    default:
-      //TODO: fallback image
-      return "pics/advtrains/advtrains_subway_wagon_inv.png";
-  }
+  return TRAIN_URLS[type] || TRAIN_URLS["advtrains:subway_wagon"];
 }
 
 let trains = [];
