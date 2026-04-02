@@ -23,13 +23,13 @@ export default L.TileLayer.extend({
 
       if (el){
           //Update src attribute if img found
-          el.src = self.getTileSource(tc.x, tc.y, tc.zoom, true);
+          el.src = self.getTileSource(tc.x, tc.y, tc.zoom);
       }
     });
   },
 
-  getTileSource: function(x,y,zoom,cacheBust){
-      return "api/tile/" + this.layerId + "/" + x + "/" + y + "/" + zoom + (cacheBust ? "?_=" + Date.now() : "");
+  getTileSource: function(x,y,zoom){
+      return "api/tile/" + this.layerId + "/" + x + "/" + y + "/" + zoom;
   },
 
   getImageId: function(x, y, zoom){
@@ -38,7 +38,7 @@ export default L.TileLayer.extend({
 
   createTile: function(coords, done){
     var tile = document.createElement('img');
-    tile.src = this.getTileSource(coords.x, coords.y, coords.z, true);
+    tile.src = this.getTileSource(coords.x, coords.y, coords.z);
     tile.id = this.getImageId(coords.x, coords.y, coords.z);
 
     // trigger callbacks
