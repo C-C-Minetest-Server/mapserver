@@ -36,8 +36,8 @@ const TRAIN_URLS = {
   "subways_01700_series:01700_series": "pics/advtrains/01700_series_inv.png",
   "subways_13000_class_lead:13000_class_lead": "pics/advtrains/13000_class_lead_inv.png",
   "subways_13000_class_intermediate:13000_class_intermediate": "pics/advtrains/13000_class_intermediate_inv.png",
-  "subways_30000_class_lead:30000_class_lead": "pics/advtrains/30000_class_lead_inv.png",
-  "subways_30000_class_intermediate:30000_class_intermediate": "pics/advtrains/30000_class_intermediate_inv.png",
+  "subways_30000_series_lead:30000_series_lead": "pics/advtrains/30000_series_lead_inv.png",
+  "subways_30000_series_intermediate:30000_series_intermediate": "pics/advtrains/30000_series_intermediate_inv.png",
   "subways_lrv_p3010:lrv_p3010": "pics/advtrains/p3010_inv.png",
   "subways_lrv_type_9:lrv_type_9": "pics/advtrains/type_9_inv.png",
   "subways_lrv_type_9_middle:lrv_type_9_middle": "pics/advtrains/type_9_middle_inv.png",
@@ -114,8 +114,8 @@ const TRAIN_URLS = {
   "advtrains:moretrains_minecart_engine": "pics/advtrains/moretrains_minecart_engine_inv.png",
 
   // Linetracks
-  "advtrains:boat": "pics/advtrains/linetracks_boat_inv.png",
-  "advtrains:bus": "pics/advtrains/linetracks_tcb.png", // temp
+  "advtrains:boat": "pics/advtrains/linetrack_boat_inv.png",
+  "advtrains:bus": "pics/advtrains/linetrack_tcb.png", // temp
 };
 
 function getTrainImageUrlForType(type){
