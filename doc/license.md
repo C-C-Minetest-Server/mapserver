@@ -53,6 +53,41 @@
   * License: CC BY-SA 3.0
   * Source [advtrains](http://advtrains.bleipb.de/)
 
+* advtrains_engine_diesel_inv.png 
+* advtrains_wagon_gravel_inv.png 
+* advtrains_wagon_lava_inv.png 
+* advtrains_wagon_track_inv.png 
+* advtrains_wagon_tree_inv.png
+  * License: CC BY-SA 3.0
+  * by MBB
+
+* advtrains_KuHa_E231_inv.png
+* advtrains_MoHa_E230_inv.png
+* advtrains_MoHa_E231_inv.png
+* advtrains_SaHa_E231_inv.png
+  * License: CC BY-SA 3.0
+  * by Mainote plants lab
+
+* minitram_konstal_105_normal_inv.png
+  * License: CC BY-SA 4.0
+  * by David Hurka <doxydoxy@mailbox.org>
+
+* 01700_series_inv.png
+* 13000_class_lead_inv.png
+* 13000_class_intermediate_inv.png
+* 30000_class_lead_inv.png
+* 30000_class_intermediate_inv.png
+* p3010_inv.png
+* type_9_inv.png
+* type_9_middle_inv.png
+* mpl16_inv.png
+  * License: CC BY-SA 3.0
+  * by sylvester_kruin
+
+* dlxtrains_*
+  * License: CC BY-SA 3.0
+  * by Marnack
+
 * minecart_logo.png
   * License: CC0
   * Source [minecart](https://github.com/joe7575/minecart)

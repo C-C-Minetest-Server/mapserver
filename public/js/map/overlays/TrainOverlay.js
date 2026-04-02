@@ -15,6 +15,64 @@ const TRAIN_URLS = {
   "advtrains:subway_wagon_blue": "pics/advtrains/advtrains_subway_wagon_inv_blue.png",
   "advtrains:subway_wagon_red": "pics/advtrains/advtrains_subway_wagon_inv_red.png",
   "advtrains:subway_wagon_green": "pics/advtrains/advtrains_subway_wagon_inv_green.png",
+
+  // Freight trains by MBB
+  "advtrains:diesel_lokomotive": "pics/advtrains/advtrains_engine_diesel_inv.png",
+  "advtrains:wagon_gravel": "pics/advtrains/advtrains_wagon_gravel_inv.png",
+  "advtrains:wagon_lava": "pics/advtrains/advtrains_wagon_lava_inv.png",
+  "advtrains:wagon_track": "pics/advtrains/advtrains_wagon_track_inv.png",
+  "advtrains:wagon_tree": "pics/advtrains/advtrains_wagon_tree_inv.png",
+
+  // JR E231
+  "advtrains:KuHa_E231": "pics/advtrains/advtrains_KuHa_E231_inv.png",
+  "advtrains:MoHa_E230": "pics/advtrains/advtrains_MoHa_E230_inv.png",
+  "advtrains:MoHa_E231": "pics/advtrains/advtrains_MoHa_E231_inv.png",
+  "advtrains:SaHa_E231": "pics/advtrains/advtrains_SaHa_E231_inv.png",
+
+  // Doxy's minitrams
+  "minitram_konstal_105:minitram_konstal_105_normal": "pics/advtrains/minitram_konstal_105_normal_inv.png",
+
+  // Subways
+  "subways_01700_series:01700_series": "pics/advtrains/01700_series_inv.png",
+  "subways_13000_class_lead:13000_class_lead": "pics/advtrains/13000_class_lead_inv.png",
+  "subways_13000_class_intermediate:13000_class_intermediate": "pics/advtrains/13000_class_intermediate_inv.png",
+  "subways_30000_class_lead:30000_class_lead": "pics/advtrains/30000_class_lead_inv.png",
+  "subways_30000_class_intermediate:30000_class_intermediate": "pics/advtrains/30000_class_intermediate_inv.png",
+  "subways_lrv_p3010:lrv_p3010": "pics/advtrains/p3010_inv.png",
+  "subways_lrv_type_9:lrv_type_9": "pics/advtrains/type_9_inv.png",
+  "subways_lrv_type_9_middle:lrv_type_9_middle": "pics/advtrains/type_9_middle_inv.png",
+  "subways_mpl16:mpl16": "pics/advtrains/mpl16_inv.png",
+
+  // Subways legacy alias
+  "advtrains:red_subway_wagon": "pics/advtrains/01700_series_inv.png",
+
+  // Dlxtrains Diesel Locomotives
+  "dlxtrains_diesel_locomotives:locomotive_type1": "pics/advtrains/dlxtrains_diesel_locomotives_locomotive_type1_inv.png",
+  "dlxtrains_diesel_locomotives:locomotive_type2": "pics/advtrains/dlxtrains_diesel_locomotives_locomotive_type2_inv.png",
+  "dlxtrains_diesel_locomotives:locomotive_type3": "pics/advtrains/dlxtrains_diesel_locomotives_locomotive_type3_inv.png",
+
+  // Dlxtrains industrial wagons
+  "dlxtrains_industrial_wagons:container_type1": "pics/advtrains/dlxtrains_industrial_wagons_container_type1_inv.png",
+  "dlxtrains_industrial_wagons:container_type2": "pics/advtrains/dlxtrains_industrial_wagons_container_type2_inv.png",
+  "dlxtrains_industrial_wagons:covered_goods_type1": "pics/advtrains/dlxtrains_industrial_wagons_covered_goods_type1_inv.png",
+  "dlxtrains_industrial_wagons:covered_goods_type2": "pics/advtrains/dlxtrains_industrial_wagons_covered_goods_type2_inv.png",
+  "dlxtrains_industrial_wagons:covered_goods_type3": "pics/advtrains/dlxtrains_industrial_wagons_covered_goods_type3_inv.png",
+  "dlxtrains_industrial_wagons:flat_type1": "pics/advtrains/dlxtrains_industrial_wagons_flat_type1_inv.png",
+  "dlxtrains_industrial_wagons:flat_type2": "pics/advtrains/dlxtrains_industrial_wagons_flat_type2_inv.png",
+  "dlxtrains_industrial_wagons:hopper_type1": "pics/advtrains/dlxtrains_industrial_wagons_hopper_type1_inv.png",
+  "dlxtrains_industrial_wagons:hopper_type2": "pics/advtrains/dlxtrains_industrial_wagons_hopper_type2_inv.png",
+  "dlxtrains_industrial_wagons:livestock_type1": "pics/advtrains/dlxtrains_industrial_wagons_livestock_type1_inv.png",
+  "dlxtrains_industrial_wagons:open_type1": "pics/advtrains/dlxtrains_industrial_wagons_open_type1_inv.png",
+  "dlxtrains_industrial_wagons:open_type2": "pics/advtrains/dlxtrains_industrial_wagons_open_type2_inv.png",
+  "dlxtrains_industrial_wagons:open_type3": "pics/advtrains/dlxtrains_industrial_wagons_open_type3_inv.png",
+  "dlxtrains_industrial_wagons:stake_type1": "pics/advtrains/dlxtrains_industrial_wagons_stake_type1_inv.png",
+  "dlxtrains_industrial_wagons:tank_type1": "pics/advtrains/dlxtrains_industrial_wagons_tank_type1_inv.png",
+  "dlxtrains_industrial_wagons:tank_type2": "pics/advtrains/dlxtrains_industrial_wagons_tank_type2_inv.png",
+  "dlxtrains_industrial_wagons:transition_type1": "pics/advtrains/dlxtrains_industrial_wagons_transition_type1_inv.png",
+  
+  // Dlxtrains support wagons
+  "dlxtrains_support_wagons:caboose_type1": "pics/advtrains/dlxtrains_support_wagons_caboose_type1_inv.png",
+  "dlxtrains_support_wagons:escort_type1": "pics/advtrains/dlxtrains_support_wagons_escort_type1_inv.png",
 };
 
 function getTrainImageUrlForType(type){
