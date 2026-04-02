@@ -106,7 +106,7 @@ export default L.LayerGroup.extend({
 	    html += "<b>Composition: </b>";
 	    train.wagons.forEach(function(w){
 	      var iconUrl =  getTrainImageUrlForType(w.type);
-	      html += "<img src='"+iconUrl+"'>";
+	      html += "<img src='"+iconUrl+"' width=16 height=16 title='"+w.type+"' />";
 	    });
     }
 
