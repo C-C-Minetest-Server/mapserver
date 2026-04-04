@@ -2,16 +2,20 @@ import wsChannel from '../../WebSocketChannel.js';
 import layerMgr from '../../LayerManager.js';
 
 const TRAIN_URLS = {
+  // Basic Trains
   "advtrains:subway_wagon": "pics/advtrains/advtrains_subway_wagon_inv.png",
   "advtrains:engine_japan":  "pics/advtrains/advtrains_engine_japan_inv.png",
   "advtrains:wagon_japan":  "pics/advtrains/advtrains_wagon_japan_inv.png",
-  "advtrains:engine_steam":  "pics/advtrains/advtrains_engine_steam_inv.png",
+  "advtrains:newlocomotive":  "pics/advtrains/advtrains_engine_steam_inv.png",
   "advtrains:detailed_steam_engine":  "pics/advtrains/advtrains_detailed_engine_steam_inv.png",
   "advtrains:engine_industrial":  "pics/advtrains/advtrains_engine_industrial_inv.png",
+  "advtrains:engine_industrial_big":  "pics/advtrains/advtrains_engine_industrial_inv.png",
+  "advtrains:wagon_tank": "pics/advtrains/advtrains_wagon_tank_inv.png",
   "advtrains:wagon_wood":  "pics/advtrains/advtrains_wagon_wood_inv.png",
   "advtrains:wagon_box":  "pics/advtrains/advtrains_wagon_box_inv.png",
   "advtrains:wagon_default":  "pics/advtrains/advtrains_wagon_inv.png",
 
+  // Colored Subway Wagons 
   "advtrains:subway_wagon_blue": "pics/advtrains/advtrains_subway_wagon_inv_blue.png",
   "advtrains:subway_wagon_red": "pics/advtrains/advtrains_subway_wagon_inv_red.png",
   "advtrains:subway_wagon_green": "pics/advtrains/advtrains_subway_wagon_inv_green.png",
