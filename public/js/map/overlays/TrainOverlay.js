@@ -118,11 +118,11 @@ const TRAIN_URLS = {
   "advtrains:moretrains_minecart_engine": "pics/advtrains/moretrains_minecart_engine_inv.png",
 
   // Classic Coaches
-  "classic_coaches:bistro_coach": "pics/classic_coaches/classic_coaches_bistro_coach_inv.png",
-  "classic_coaches:corridor_coach_class1": "pics/classic_coaches/classic_coaches_corridor_coach_class1_inv.png",
-  "classic_coaches:corridor_coach_class2": "pics/classic_coaches/classic_coaches_corridor_coach_class2_inv.png",
-  "classic_coaches:open_coach_class1": "pics/classic_coaches/classic_coaches_open_coach_class1_inv.png",
-  "classic_coaches:open_coach_class2": "pics/classicCoaches/classicCoaches_openCoach_class2_inv.png",
+  "classic_coaches:bistro_coach": "pics/advtrains/classic_coaches_bistro_coach_inv.png",
+  "classic_coaches:corridor_coach_class1": "pics/advtrains/classic_coaches_corridor_coach_class1_inv.png",
+  "classic_coaches:corridor_coach_class2": "pics/advtrains/classic_coaches_corridor_coach_class2_inv.png",
+  "classic_coaches:open_coach_class1": "pics/advtrains/classic_coaches_open_coach_class1_inv.png",
+  "classic_coaches:open_coach_class2": "pics/advtrains/classic_coaches_open_coach_class2_inv.png",
 
   // Linetracks
   "advtrains:boat": "pics/advtrains/linetrack_boat_inv.png",
