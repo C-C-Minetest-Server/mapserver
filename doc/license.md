@@ -93,6 +93,10 @@
   * by rbduck, derived from icons from advtrains
   * except nightline and basic, icon by Marnack derived from rbduck
 
+* classic_coaches_*
+  * License: CC BY-SA 3.0
+  * by Marnack
+
 * linetracks_boat_inv.png
   * License: CC BY-SA 4.0
   * by Montandalar
