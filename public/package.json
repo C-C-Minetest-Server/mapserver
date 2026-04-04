@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "jshint": "cd js && jshint .",
-		"bundle": "rollup -c rollup.config.js"
+    "bundle": "rollup -c rollup.config.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,7 +18,7 @@
     "vue-router": "^3.5.2"
   },
   "devDependencies": {
-    "jshint": "2.13.6",
+    "jshint": "^0.5.9",
     "rollup": "4.59.0"
   }
 }
