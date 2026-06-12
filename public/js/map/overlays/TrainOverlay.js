@@ -54,6 +54,7 @@ const TRAIN_URLS = {
   "dlxtrains_diesel_locomotives:locomotive_type1": "pics/advtrains/dlxtrains_diesel_locomotives_locomotive_type1_inv.png",
   "dlxtrains_diesel_locomotives:locomotive_type2": "pics/advtrains/dlxtrains_diesel_locomotives_locomotive_type2_inv.png",
   "dlxtrains_diesel_locomotives:locomotive_type3": "pics/advtrains/dlxtrains_diesel_locomotives_locomotive_type3_inv.png",
+  "dlxtrains_diesel_locomotives:locomotive_type4": "pics/advtrains/dlxtrains_diesel_locomotives_locomotive_type4_inv.png",
 
   // Dlxtrains industrial wagons
   "dlxtrains_industrial_wagons:container_type1": "pics/advtrains/dlxtrains_industrial_wagons_container_type1_inv.png",
